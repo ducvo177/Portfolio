@@ -1,0 +1,70 @@
+.navbar{
+    height:100vh;
+    position:fixed;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav-item {
+    width: 100%;
+    padding: 40px 60px;
+    font-size: 20px;
+    
+    
+}
+.nav-link{
+    cursor: pointer;
+}
+.navbar-avt{
+    width: 80%;
+}
+.navbar-job{
+    
+    color: rgba(255,255,255,0.9);
+}
+
+.content {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://wallpaperaccess.com/full/5201631.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    margin-left: 16.566667%;
+    
+}
+
+.content .category{
+    padding:30px 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    
+    
+}
+.content .heading{
+    
+    color: #fff;
+    
+}
+.content .information{
+   list-style: none;
+}
+.content .body{
+    margin-top:30px;
+}
+.content .detail{
+    color: #fff;
+    list-style: none;
+}
+.content .detail .icon{
+ font-size:20px;
+ padding:0px 5px;
+}
+.content .detail img{
+    height: 100px;
+    margin-top:20px;
+
+}
+.content .category.active{
+    height:100vh;
+}
+.content .education--image{
+    height: 600px;
+    margin:30px 0;
+    border-radius: 10px;
+}
